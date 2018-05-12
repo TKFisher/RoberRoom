@@ -43,6 +43,7 @@ html {
     display: block;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
     color: peru;
+    text-decoration: red; 
   }
   section {
       width: 73%;
