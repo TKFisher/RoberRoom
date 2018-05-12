@@ -4,6 +4,6 @@ var dt = new Date();
 var hour = dt.getHours();  
 var minutes = dt.getMinutes();  
 var seconds = dt.getSeconds();  
-document.write(hour + '-' + minutes + '-' + seconds+'-');  
+document.write(hour + '-' + minutes + '-' + seconds);  
 
 // Output: current month, day, year  
