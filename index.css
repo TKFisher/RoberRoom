@@ -6,39 +6,49 @@ html {
     height: 100%;
   }
   body {
+     width: 800px;
      height: 100%;
   }
 
   header {
-      background-color:;
-      padding:5px;
+      background-color: ;
+      padding: 5px;
       font-size: ;
       display: block;
-      width: 790px;
   }
   nav {
-      line-height:;
-      background-color:;
-      width:125px;
-      display: inline-block;
-      vertical-align: top;
+      float: left;
+      width: 100%;
   }
   nav ul {
+      padding: ;
+      float: left;
+      border-bottom: ;
       list-style-type: none;
+  }
+  nav li {
+      float: left;
+  }
+  nav li a {
+      display: block;
+      height: 25px;
+      padding: 12px 18px 8px 18px;
+      vertical-align: middle;
   }
   a {
       color: ;
   }
   section {
-      width: 516px;
+      width: 73%;
       display: inline-block;
+      float: left;
   }
   aside {
-    width: 125px;
-    display: inline-block;
-    vertical-align: top;
-    background-color:;
-    font-size: ;
+      width: 17%;
+      display: inline-block;
+      background-color:;
+      padding:;
+      min-height: 100%;
   }
   aside ul {
       list-style-type: none;
@@ -46,7 +56,7 @@ html {
   footer {
       width: 790px;
       background-color:;
-      text-align:;
-      padding:5px;
+      color:;
+      clear: both;
       display: block;
   }
