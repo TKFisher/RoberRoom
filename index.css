@@ -1,43 +1,59 @@
 /* Note to students: Some properties are given to you to fill out,
 others you can modify as they stand, and if you have time,
-there are definitely some properties you should add! add!*/
+there are definitely some properties you should add!*/
 
 html {
-    height: 100%;
-  }
+        background: url(Images/padded-cell-2.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 100%;
+    }
   body {
      width: 800px;
      height: 100%;
-     background-color:goldenrod;
   }
 
   header {
-      background-color:goldenrod ;
-      padding: 5px;
-      font-size: ;
+      background-color: #ffffff;
+      padding-left: 10px;
+      font-size: 26px;
       display: block;
+      border: 10px solid #000000;
+      margin-bottom: 20px;
+      text-align: center;
   }
   nav {
       float: left;
       width: 100%;
   }
   nav ul {
-      padding: ;
-      float: left;
-      border-bottom: ;
-      list-style-type: none;
-  }
-  nav li {
-      float: left;
-  }
-  nav li a {
-      display: block;
-      height: 25px;
-      padding: 12px 18px 8px 18px;
-      vertical-align:middle;
-  }
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+    background-color: #111;
+}
   a {
-      color: blue;
+      color: ;
   }
   section {
       width: 73%;
@@ -57,7 +73,7 @@ html {
   footer {
       width: 790px;
       background-color:;
-      color:greenyellow;
+      color:;
       clear: both;
       display: block;
   }
