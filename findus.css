@@ -9,14 +9,31 @@ there are definitely some properties you should add!*/
        width: 800px;
        height: 100%;
        background-color:goldenrod;
+       margin: 20px;
+       text-align: center; 
     }
 
     header {
+
         background-color:goldenrod;
         padding: 5px;
-        font-size: ;
+        font-size: 100%;
         display: block;
     }
+
+    h1 {
+        background: #C827FF
+        50px solid #000000;
+    }
+
+    h2 {
+        background-color: darkolivegreen;
+        width: 100%;
+        border: 50px;
+        display: block;
+    }
+
+
     nav {
         float: left;
         width: 100%;
@@ -36,6 +53,12 @@ there are definitely some properties you should add!*/
         padding: 12px 18px 8px 18px;
         vertical-align: middle;
     }
+
+    article {
+        display: inline;
+    }
+
+
     /* images */
     article img {
     width: 75%;
@@ -45,24 +68,11 @@ there are definitely some properties you should add!*/
     text-align: center;
     }
 
-    a {
-        color: ;
-    }
     section {
         width: 73%;
         display: inline-block;
-        float: left;
     }
-    aside {
-        width: 17%;
-        display: inline-block;
-        background-color:;
-        padding:;
-        min-height: 100%;
-    }
-    aside ul {
-        list-style-type: none;
-    }
+
     footer {
         width: 1000px;
         background-color: #C827FF;
